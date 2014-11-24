@@ -1,0 +1,4 @@
+# User privilege specification
+       root    ALL = (ALL) ALL
+       vagrant  ALL = (ALL) NOPASSWD:ALL
+       art     ALL = (ALL) NOPASSWD: /bin/ls
