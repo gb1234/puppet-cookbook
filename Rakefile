@@ -1,4 +1,4 @@
-SSH = 'ssh -A  -l demo'
+SSH = 'ssh -A  -l vagrant'
 
 desc "Run Puppet on ENV['CLIENT']"
 task :apply do
