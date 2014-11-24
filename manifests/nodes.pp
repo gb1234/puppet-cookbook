@@ -6,9 +6,10 @@ node 'demo' {
  file { '/tmp/test':
            content => 'Zaphod Beeblebrox, this is a very large drink',
          } 
-  class { 'ntp':
-           server => 'us.pool.ntp.org',
-         } 
+ class { 'ntp':
+          server => 'us.pool.ntp.org',
+        }
+ include puppet
  include nginx
  include sudoers
  include ssh
